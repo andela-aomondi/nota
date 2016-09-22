@@ -1,0 +1,25 @@
+{
+  "name": "nota",
+  "description": "Take it down!",
+  "main": "index.js",
+  "authors": [
+    "Amos Omondi"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "notes"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "v4.0.0-alpha.4"
+  }
+}

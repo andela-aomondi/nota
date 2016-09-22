@@ -1,0 +1,25 @@
+{
+  "name": "nota",
+  "version": "1.0.0",
+  "description": "Take it down!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-aomondi/nota.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Amos Omondi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-aomondi/nota/issues"
+  },
+  "homepage": "https://github.com/andela-aomondi/nota#readme",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
