@@ -15,7 +15,6 @@ distlib==0.1.2
 Django==1.10.1
 Flask==0.10.1
 freeport==0.1.9
-functools32==3.2.3.post2
 gitdb==0.6.4
 GitPython==2.0.8
 gnureadline==6.3.3
@@ -66,7 +65,6 @@ terminado==0.6
 tornado==4.3
 traitlets==4.2.1
 urllib3==1.17
-vboxapi==1.0
 virtualenv==13.1.2
 virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.1
