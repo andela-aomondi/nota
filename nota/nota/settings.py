@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -115,11 +114,11 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend'
 ]
 
-AUTH0_DOMAIN = 'YOU_DOMAIN.auth0.com'
-AUTH0_CLIENT_ID = 'YOU_CLIENT_ID'
-AUTH0_SECRET = 'YOUR_SECRET'
-AUTH0_CALLBACK_URL = 'http://YOUR_CALLBACK_URL'
-AUTH0_SUCCESS_URL = '/'
+AUTH0_DOMAIN = 'omondi.auth0.com'
+AUTH0_CLIENT_ID = 'ml2qGA94UaymWxJ8cB6YUW9ZkxtiFVx7'
+AUTH0_SECRET = 'WEO6XWMcFmboRHJ9hfjU-3PAYsphzbxyUFZEWrhuCsZwWGKL82CjWU_dWnP60uJW'
+AUTH0_CALLBACK_URL = 'http://localhost:8000'
+AUTH0_SUCCESS_URL = '/notes/'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/

@@ -14,6 +14,9 @@ class HomePageView(TemplateView):
 class NoteDetailView(TemplateView):
     """View to handle listing notes."""
 
+    template_name = "notes.html"
+
+
     # def get_context_data(self, **kwargs):
     #     context = super(HomePageView, self).get_context_data(**kwargs)
     #
